@@ -1,0 +1,21 @@
+[project]
+name = "pyvcd_parser"
+version = "0.0.1"
+authors = [
+  { name="Jinyu Liu", email="liu.jy@msn.com" },
+]
+description = "A parser that parses VCD files into an in-memory representation using the tokenizer from pyvcd"
+# readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+    "pyvcd"
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
